@@ -144,8 +144,8 @@ DataManager.onLoad = function(object) {
         }
     }
     if (object === $dataSystem) {
-        Decrypter.hasEncryptedImages = !!object.hasEncryptedImages;
-        Decrypter.hasEncryptedAudio = !!object.hasEncryptedAudio;
+        Decrypter.hasEncryptedImages = true;
+        Decrypter.hasEncryptedAudio = true;
         Scene_Boot.loadSystemImages();
     }
 };
